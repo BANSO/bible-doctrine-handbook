@@ -2,6 +2,8 @@ import React from 'react';
 import './loginStyle.css';
 import { Link } from "react-router-dom";
 import Bible from "./Login.jpg";
+import Logo from "./bdh.png";
+
 
 
 function Signin() {
@@ -12,7 +14,7 @@ function Signin() {
     <div className="row d-flex">
       <div className="col-lg-6">
         <div className="card1 pb-5">
-          <div className="row"> <img src="https://i.imgur.com/CXQmsmF.png" className="logo" /> </div>
+          <div className="row"> <img src={Logo} className="logo" /> </div>
           <div className="row px-3 justify-content-center mt-4 mb-5 border-line"> <img src={Bible} className="image" /> </div>
         </div>
       </div>
